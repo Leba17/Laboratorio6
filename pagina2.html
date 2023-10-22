@@ -4,45 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tuning</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
-    <header>
+    <header class="bg-dark text-white text-center p-3">
         <h1>Garage Fantástico</h1>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="pagina1.html">Modelos</a>
-        <a href="pagina2.html" class="active">Tuning</a>
-        <a href="pagina3.html">Clásicos</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Modelos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="pagina2.html">Tuning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina3.html">Clásicos</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <section>
-        <img src="img/descarga (1).jfif" alt="Auto Tuning Personalizado">
-        <h2>Personalización y Tuning</h2>
+    <section class="container mt-4">
+        <img src="img/descarga (1).jfif" class="img-fluid" alt="Auto Tuning Personalizado">
+        <h2 class="mt-3">Personalización y Tuning</h2>
         <p>Descubre la creatividad en el mundo del tuning. Desde modificaciones sutiles hasta transformaciones audaces.</p>
     </section>
-    <h3>Explora Nuestras Creaciones</h3>
-    <p>Sumérgete en nuestro catálogo de autos personalizados, donde cada vehículo es una obra maestra única.</p>
 
-    <h3>¿Qué Ofrecemos?</h3>
-    <ul>
-        <li><strong>Modificaciones Estéticas:</strong> Personaliza la apariencia de tu auto con una variedad de opciones, desde pinturas personalizadas hasta luces especiales.</li>
-        <li><strong>Mejoras de Rendimiento:</strong> Aumenta la potencia y la eficiencia de tu vehículo con nuestras modificaciones de rendimiento.</li>
-        <li><strong>Tuning Interior:</strong> Haz que el interior de tu auto refleje tu estilo de vida con opciones de tuning exclusivas.</li>
-    </ul>
+    <section class="container mt-4">
+        <h3>Explora Nuestras Creaciones</h3>
+        <p>Sumérgete en nuestro catálogo de autos personalizados, donde cada vehículo es una obra maestra única.</p>
+    </section>
 
-    <h3>Proceso de Tuning</h3>
-    <p>Nuestro equipo de expertos trabaja contigo para entender tus visiones y convertirlas en realidad. Desde el concepto hasta la entrega, te guiamos en cada paso.</p>
+    <section class="container mt-4">
+        <h3>¿Qué Ofrecemos?</h3>
+        <ul>
+            <li><strong>Modificaciones Estéticas:</strong> Personaliza la apariencia de tu auto con una variedad de opciones, desde pinturas personalizadas hasta luces especiales.</li>
+            <li><strong>Mejoras de Rendimiento:</strong> Aumenta la potencia y la eficiencia de tu vehículo con nuestras modificaciones de rendimiento.</li>
+            <li><strong>Tuning Interior:</strong> Haz que el interior de tu auto refleje tu estilo de vida con opciones de tuning exclusivas.</li>
+        </ul>
+    </section>
 
-    <h3>Consulta de Tuning</h3>
-    <p>¿Listo para personalizar tu auto? Contáctanos para una consulta gratuita y descubre cómo podemos llevar tu vehículo al siguiente nivel.</p>
-    <a href="consulta.html">Consulta Ahora</a>
-</section>
+    <section class="container mt-4">
+        <h3>Proceso de Tuning</h3>
+        <p>Nuestro equipo de expertos trabaja contigo para entender tus visiones y convertirlas en realidad. Desde el concepto hasta la entrega, te guiamos en cada paso.</p>
+    </section>
+
+    <section class="container mt-4">
+        <h3>Consulta de Tuning</h3>
+        <p>¿Listo para personalizar tu auto? Contáctanos para una consulta gratuita y descubre cómo podemos llevar tu vehículo al siguiente nivel.</p>
+        <a href="consulta.html" class="btn btn-primary">Consulta Ahora</a>
+    </section>
 
 
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
